@@ -1,31 +1,18 @@
 import Link from 'next/link';
-import ThemeToggle from './components/ThemeToggle';
 
-export default function Home() {
+export default function Blog() {
   return (
     <div className="min-h-screen">
       {/* Top Navigation */}
       <nav className="border-b" style={{ borderColor: "var(--color-border)" }}>
         <div className="max-w-4xl mx-auto px-6 py-4 flex gap-8 items-center">
-          <Link
-            href="/"
-            className="transition-colors"
-            style={{ color: "var(--color-primary)" }}
-          >
+          <Link href="/" style={{ color: "var(--color-muted)" }} className="nav-link transition-colors">
             About
           </Link>
-          <Link
-            href="/blog"
-            className="nav-link transition-colors"
-            style={{ color: "var(--color-muted)" }}
-          >
+          <Link href="/blog" style={{ color: "var(--color-primary)" }} className="transition-colors">
             Blog
           </Link>
-          <Link
-            href="/projects"
-            className="nav-link transition-colors"
-            style={{ color: "var(--color-muted)" }}
-          >
+          <Link href="/projects" style={{ color: "var(--color-muted)" }} className="nav-link transition-colors">
             Projects
           </Link>
 
@@ -78,62 +65,19 @@ export default function Home() {
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
               </svg>
             </a>
-
-            <ThemeToggle />
           </div>
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="border-b" style={{ borderColor: "var(--color-border)" }}>
-        <div className="max-w-4xl mx-auto px-6 py-20">
-          <div className="flex gap-12 items-center">
-            <div className="flex-1">
-              <h1 className="text-6xl font-bold tracking-tight mb-4">
-                Ellen Ma
-              </h1>
-              <div className="space-y-2">
-                <p className="text-xl leading-relaxed" style={{ color: "var(--color-muted)" }}>
-                  Intern, ML Research Engineer @ <a href="https://kempnerinstitute.harvard.edu/"
-                  target="_blank" rel="noopener"
-                  className="hero-link">Harvard's Kempner Institute</a>
-                </p>
-                <p className="text-base" style={{ color: "var(--color-muted)" }}>
-                  <i>MS Data Science, Harvard (Jan 2026) · BS Math, UChicago </i>
-                </p>
-                <p className="text-base" style={{ color: "var(--color-muted)" }}>
-                  Open to full-time ML (research) engineering and SWE roles (2026 start).
-                </p>
-              </div>
-            </div>
-
-            <img
-              src="/profile.jpeg"
-              alt="Ellen Ma"
-              className="h-64 rounded-lg object-cover"
-              style={{ border: "2px solid var(--color-border)" }}
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-6 py-12">
-        {/* About Section */}
-        <section id="about" className="space-y-4">
-          <h2 className="text-2xl font-semibold">About</h2>
-          <p style={{ color: "var(--color-muted)" }} className="leading-relaxed max-w-2xl">
-            Welcome! I'm Ellen. Currently, I'm at Harvard working on my master's thesis (advised by <a href="https://xkianteb.github.io/"
-            target="_blank" rel="noopener"
-            className="hero-link">Kianté Brantley</a>) on reinforcement learning and tool use for AI agents. 
+        <h1 className="text-4xl font-bold tracking-tight mb-8">Blog</h1>
+
+        <div className="space-y-8">
+          <p style={{ color: "var(--color-muted)" }} className="leading-relaxed">
+            Blog posts coming soon...
           </p>
-          <p style={{ color: "var(--color-muted)" }} className="leading-relaxed max-w-2xl">
-            Before this, I studied math and economics at UChicago and worked on projects ranging from neuroscience to NLP for healthcare. 
-          </p>  
-          <p style={{ color: "var(--color-muted)" }} className="leading-relaxed max-w-2xl">
-            When I'm not at the engineering building, I'm usually at one of the nearby Central Rock Gyms. Always happy to chat about research, climbing, or both! 
-          </p>   
-        </section>
+        </div>
       </main>
     </div>
   );
