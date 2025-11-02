@@ -95,7 +95,7 @@ export default function Home() {
               <div className="space-y-2">
                 <p className="text-xl leading-relaxed" style={{ color: "var(--color-muted)" }}>
                   Intern, ML Research Engineer @ <a href="https://kempnerinstitute.harvard.edu/"
-                  target="_blank" rel="noopener"
+                  target="_blank" rel="noopener" style={{ color: "var(--color-primary)" }}
                   className="hero-link">Harvard's Kempner Institute</a>
                 </p>
                 <p className="text-base" style={{ color: "var(--color-muted)" }}>
@@ -103,6 +103,9 @@ export default function Home() {
                 </p>
                 <p className="text-base" style={{ color: "var(--color-muted)" }}>
                   Open to full-time ML (research) engineering and SWE roles (2026 start).
+                </p>
+                <p className="text-base" style={{ color: "var(--color-muted)" }}>
+                  ellenma [at] g [dot] harvard [dot] edu
                 </p>
               </div>
             </div>
@@ -124,7 +127,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold">About</h2>
           <p style={{ color: "var(--color-muted)" }} className="leading-relaxed max-w-2xl">
             Welcome! I'm Ellen. Currently, I'm at Harvard working on my master's thesis (advised by <a href="https://xkianteb.github.io/"
-            target="_blank" rel="noopener"
+            target="_blank" rel="noopener" style={{ color: "var(--color-primary)" }}
             className="hero-link">Kianté Brantley</a>) on reinforcement learning and tool use for AI agents. 
           </p>
           <p style={{ color: "var(--color-muted)" }} className="leading-relaxed max-w-2xl">
