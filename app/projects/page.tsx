@@ -88,7 +88,7 @@ export default function Projects() {
               </a>
             </h2>
             <p style={{ color: "var(--color-muted)" }} className="leading-relaxed">
-              A reinforcement learning agent designed for multi-turn interactions.
+              Multi-turn RL agents that learn to query environment simulators before acting, enabling planning in games like Sokoban and FrozenLake.
             </p>
             <div className="mt-4">
               <a
