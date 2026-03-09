@@ -94,15 +94,10 @@ export default function Home() {
               </h1>
               <div className="space-y-2">
                 <p className="text-xl leading-relaxed" style={{ color: "var(--color-muted)" }}>
-                  Intern, ML Research Engineer @ <a href="https://kempnerinstitute.harvard.edu/"
-                  target="_blank" rel="noopener" style={{ color: "var(--color-primary)" }}
-                  className="hero-link">Harvard's Kempner Institute</a>
+                  ML Researcher @ Metis
                 </p>
                 <p className="text-base" style={{ color: "var(--color-muted)" }}>
                   <i>MS Data Science, Harvard (Jan 2026) · BS Math, UChicago </i>
-                </p>
-                <p className="text-base" style={{ color: "var(--color-muted)" }}>
-                  Open to full-time ML (research) engineering and SWE roles (2026 start).
                 </p>
                 <p className="text-base" style={{ color: "var(--color-muted)" }}>
                   ellenma [at] g [dot] harvard [dot] edu
@@ -126,12 +121,12 @@ export default function Home() {
         <section id="about" className="space-y-4">
           <h2 className="text-2xl font-semibold">About</h2>
           <p style={{ color: "var(--color-muted)" }} className="leading-relaxed max-w-2xl">
-            Welcome! I'm Ellen. Currently, I'm at Harvard working on my master's thesis (advised by <a href="https://xkianteb.github.io/"
+            Welcome! I'm Ellen. I'm an ML researcher at Metis, working on LLM agents with reinforcement learning. Previously, I completed my master's thesis at Harvard (advised by <a href="https://xkianteb.github.io/"
             target="_blank" rel="noopener" style={{ color: "var(--color-primary)" }}
-            className="hero-link">Kianté Brantley</a>) on reinforcement learning and tool use for AI agents. 
+            className="hero-link">Kianté Brantley</a>) on simulator-augmented LLM agents for multi-step planning.
           </p>
           <p style={{ color: "var(--color-muted)" }} className="leading-relaxed max-w-2xl">
-            Before this, I studied math and economics at UChicago and worked on projects ranging from neuroscience to NLP for healthcare. 
+            Before that, I studied math and economics at UChicago and worked on projects ranging from neuroscience to NLP for healthcare.
           </p>  
           <p style={{ color: "var(--color-muted)" }} className="leading-relaxed max-w-2xl">
             When I'm not at the engineering building, I'm usually at one of the nearby Central Rock Gyms. Always happy to chat about research, climbing, or both! 
